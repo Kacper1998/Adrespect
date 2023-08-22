@@ -221,11 +221,11 @@ html {
   }
   @media only screen and (max-width: 1200px) {
     .cards {
-      height: 30%;
-      margin-top: 105%;
+      height: 215vh;
+      margin-top: 40vh;
     }
     .cards-row {
-      margin-top: 10%;
+      margin-top: 70%;
     }
   }
   .cards-row {
