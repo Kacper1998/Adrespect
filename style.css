@@ -408,6 +408,13 @@ transition: 1s ease;
     font-size: 16px;
     line-height: 24px;
     font-family: 'Inter', sans-serif;
+    text-decoration: underline;
+}
+.more-info::after {
+  content: url("images/Vector\ \(3\).png");
+  width: 16px;
+  height: 16px;
+  padding-left: 3%;
 }
 
 .card .card-header.no-border {
