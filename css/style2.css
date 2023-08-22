@@ -8203,7 +8203,7 @@ h1, h2, h3, h4, h5,
   height: 700px; }
 
 .work-wrap .text {
-  background: red; }
+  background: #DCC1AB; }
   @media screen and (max-width:1100px) {
     .work-wrap .text {
         background-color: #DCC1AB;
