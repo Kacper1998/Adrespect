@@ -1,11 +1,3 @@
-// init Masonry
-var $grid = $('.grid').masonry({
-  // options...
-});
-// layout Masonry after each image loads
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
-});
 $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: 50,
