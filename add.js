@@ -1,10 +1,9 @@
 $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: 50,
-    gutter: 10 ,
-    columnWidth: '.grid-sizer'
-
+    gutter: 10
   });
+
   $(".searchbtn").click(function(){
     $(this).toggleClass("bg-green");
     $(".fas").toggleClass("color-white");
@@ -24,3 +23,7 @@ $('.grid').masonry({
       } 
     });
   }
+
+  const logo1 = document.querySelector
+(".flex-item-left");
+TweenMax.from(logo1, 8, {opacity: 0});

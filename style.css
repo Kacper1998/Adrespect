@@ -344,6 +344,13 @@ html {
     margin-top: 8vh;
     margin-left: 5vw;
   }
+  .btn-company:after {
+      content: url("images/Vector\ \(8\).png");
+      width: 16px;
+      height: 16px;
+      padding-left: 3%;
+    }
+  
 
   
   .card-margin {
