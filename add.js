@@ -1,7 +1,17 @@
+// init Masonry
+var $grid = $('.grid').masonry({
+  // options...
+});
+// layout Masonry after each image loads
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});
 $('.grid').masonry({
     itemSelector: '.grid-item',
     columnWidth: 50,
-    gutter: 10
+    gutter: 10 ,
+    columnWidth: '.grid-sizer'
+
   });
   $(".searchbtn").click(function(){
     $(this).toggleClass("bg-green");

@@ -221,7 +221,11 @@ html {
   }
   @media only screen and (max-width: 1200px) {
     .cards {
-      height: 35%;
+      height: 30%;
+      margin-top: 105%;
+    }
+    .cards-row {
+      margin-top: 10%;
     }
   }
   .cards-row {
@@ -451,7 +455,8 @@ transition: 1s ease;
   }
   @media only screen and (max-width: 1200px) {
     .masonry {
-      margin-top: 130%;
+      margin-top: 160%;
+      height: 105vh;
     }
   }
   .masonry-p-1 {
