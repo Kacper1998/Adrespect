@@ -76,7 +76,8 @@ html {
 
   .searchbox{
     position: relative;
-    margin-right: 4%;
+    margin-right: -2vw;
+    margin-top: 1vh;
   }
   
   .searchbox .input{
